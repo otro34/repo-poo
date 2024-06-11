@@ -1,0 +1,44 @@
+Una entidad educativa necesita gestionar los datos de sus 
+docentes. De los docentes se conocen los
+siguientes datos: Código, Nombres, DNI, años de trabajo en la 
+institución, días de vacaciones, edad, y si
+está activo o no. Además, sobre los docentes se pueden realizar 
+las siguientes operaciones: ingresar,
+calcular días de vacaciones, asignar sueldo, ordenar por sueldo, 
+ver sus datos y cesar. Los docentes pueden
+ser de tipo: ordinario, investigador o administrativo. 
+Los docentes tienen como código un correlativo que
+indica su posición de ingreso, independiente de su tipo. 
+Para los docentes ordinarios, el código comienza
+con “DO-” (Ejemplo: DO-1). Para los docentes investigadores, 
+el código comienza con “IN-” (ejemplo:
+IN-), y para los docentes administrativos, el código comienza 
+con “AD-” (Ejemplo: AD-3). Los docentes
+ordinarios tienen además un listado de cursos, de los cuales 
+solo se sabe sus nombres. Los docentes
+investigadores tienen a su cargo proyectos de investigación, 
+de los cuales se sabe sólo sus nombres. Los
+docentes administrativos pueden tener solo un cargo a tiempo 
+completo. A todos los docentes se les
+asigna un sueldo base de S/2000, y pueden recibir un 5% 
+adicional si son investigadores, o 7% si son
+administrativos. Para las vacaciones que les corresponde se 
+usa la siguiente lógica: de 1 a 5 años, le
+corresponden 15 días, de 5 a 10, 20 días, y de 10 a más años, 
+le corresponden 30 días. Para el cese de
+docentes, solo se debe actualizar el estado a inactivo (activo 
+= false). Adicional a esto, sólo los docentes
+ordinarios y administrativos pagan un seguro de vida (S/100) 
+que deberá ser descontado de su sueldo final.
+Para los docentes investigadores, no aplica el pago de este 
+seguro. Por disposiciones de la entidad
+reguladora, una entidad educativa puede contener como máximo 
+30 docentes.
+Adicional a esto, el ordenamiento de los docentes por sueldo 
+debe hacerse utilizando el algoritmo burbuja.
+Finalmente, para verificar que los requerimientos se estén 
+cumpliendo, es necesario crear una
+Aplicación de Prueba para crear los tipos de docente y se 
+muestren las funcionalidades (agregar 30
+docentes, calcular sueldos, vacaciones, cesar 3 docentes, 
+e imprimir los datos de todos).
